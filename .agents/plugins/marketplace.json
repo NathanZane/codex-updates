@@ -1,0 +1,20 @@
+{
+  "name": "updates",
+  "interface": {
+    "displayName": "Updates"
+  },
+  "plugins": [
+    {
+      "name": "updates",
+      "source": {
+        "source": "local",
+        "path": "./plugins/updates"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Updates"
+  short_description: "Progress emails for long Codex work"
+  default_prompt: "Use $updates to send progress updates during this goal."

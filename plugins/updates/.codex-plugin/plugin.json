@@ -1,0 +1,19 @@
+{
+  "name": "updates",
+  "version": "0.1.3",
+  "description": "Project-manager-style progress updates for long Codex work.",
+  "author": {
+    "name": "NathanZane"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Updates",
+    "shortDescription": "Progress emails for long Codex work.",
+    "longDescription": "Adds a Gmail-only Codex skill that sends concise progress updates during long goals and tasks.",
+    "developerName": "NathanZane",
+    "category": "Productivity",
+    "capabilities": ["Status updates"],
+    "defaultPrompt": ["Use $updates to send progress updates during this goal."]
+  }
+}
