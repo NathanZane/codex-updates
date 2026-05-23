@@ -9,17 +9,18 @@ Send concise user-visible status updates during long-running work, especially `/
 
 Use updates for:
 
-- Starting a major phase.
+- Reporting major, meaningful progress.
 - Completing a major phase.
 - Needing user input.
 - Hitting a blocker.
-- Beginning risky, expensive, or long-running work.
+- Risky, expensive, or long-running work.
 - During active long work when useful, while avoiding routine updates more often than every 30 minutes.
 
 When using this skill for a long task:
 
 - Keep track of the task start time.
 - Keep track of the last update time.
+- Before sending the first routine email, wait for the requested update interval to elapse; do not email as soon as the task starts.
 - When Codex regains control after a substantial step or tool call, check elapsed time before deciding whether to send a routine update.
 
 Choose the update channel:
